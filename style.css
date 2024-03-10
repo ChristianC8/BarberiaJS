@@ -1,0 +1,155 @@
+
+/* fonts */
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+/* fonts */
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+#BarberiaSalaId{
+    width: 100%;
+    height: 100vh;
+
+    position: absolute;
+    z-index: 1;
+    
+}
+#ModeloBarba{
+    
+    width: 50%;
+ 
+    height: 95vh;
+
+    position: absolute;
+    z-index: 20;
+    top: 5%;
+    left: 10%;
+    
+}
+
+
+#BlurBar{
+    width: 100%;
+    height: 20vh;
+
+    position: relative;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+    background-color: rgba(3, 3, 3, 0.507);
+}
+
+#BlackBar{
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 99vh;
+    z-index: 20;
+    background-color: rgb(15, 15, 15);
+
+}
+#WhiteBar{
+    width: 100%;
+    height: 30vh;
+    margin-top: 2.5%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+ 
+    justify-content: center;
+}
+
+#Titulos{
+    width: 100vw;
+    position: absolute;
+    display:flex;
+    top: 10%;
+    z-index: 15;
+    align-items: center;
+}
+#Rtitulo{
+    margin-left: 4%;
+    color: rgb(255, 255, 255);
+}
+#Ltitulo{
+    margin-left: 40%;
+    margin-right: 2%;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+#LtituloSub{
+    padding-left: 25px;
+    margin-bottom: 0px;
+
+}
+
+#Principal{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    z-index: 15;
+    margin-top: 4%;
+    background-color: rgba(0, 0, 0, 0.404);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.principalButton:hover{
+    background-color: rgba(255, 68, 0, 0.438)  !important;
+}
+.principalButton:active{
+    background-color: rgba(255, 196, 0, 0.603)  !important;
+}
